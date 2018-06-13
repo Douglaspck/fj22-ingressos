@@ -145,6 +145,9 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.0.v20161208</version>
                 <configuration>
+					<httpConnector>
+						<port>8082</port>
+					</httpConnector>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
             </plugin>
